@@ -6,7 +6,7 @@ class SearchView {
   // _errMessage = "You can't search for nothing :)";
   getQuery() {
     const recipeName = this._parentElem.querySelector('.search__field').value;
-    if (!recipeName) return;
+    if (recipeName === '') return;
     this.#clearSearchFieald();
     return recipeName;
   }
