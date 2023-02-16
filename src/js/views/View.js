@@ -1,4 +1,5 @@
 import icons from '../../img/icons.svg';
+import { Fraction } from './../../../node_modules/fractional/releases/fraction-0.2';
 
 export default class View {
   _data;
