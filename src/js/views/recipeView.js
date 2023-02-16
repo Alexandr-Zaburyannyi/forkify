@@ -109,7 +109,7 @@ class RecipeView extends View {
   <use href="${icons}svg#icon-check"></use>
   </svg>
   <div class="recipe__quantity">${
-    ing.quantity ? Math.round(ing.quantity).toFixed(1) : ''
+    ing.quantity ? ing.quantity.toFixed(1) : ''
   }</div>
   <div class="recipe__description">
   <span class="recipe__unit">${ing.unit}</span>
